@@ -1,6 +1,6 @@
 class PostImagesController < ApplicationController
   def new
-    @post_image = PostImages.new
+    @post_image = PostImage.new
   end
 
   def create
